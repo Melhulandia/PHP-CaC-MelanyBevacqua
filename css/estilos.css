@@ -1,0 +1,134 @@
+.navbar {
+    padding: 3rem;        
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.LogoTitle{
+    text-align: right;
+    font-weight: 580;/*negrita*/
+}
+.text-green{
+    color: rgb(15, 169, 15) !important;
+}
+.card-superpuesta img{
+    filter: brightness(30%);
+}
+.card-img-overlay {
+    padding-right: 8.5rem !important;
+    padding-top: 20% !important;
+    padding-left: 48% !important;
+    height: max-content;
+}
+.card-titulo, .textoConferencia, .btn-outline {
+    color: white;
+}
+.textoConferencia {
+    font-size: 1.12rem;
+    padding-top: 1rem;
+}
+.card-titulo {
+    font-size: 2rem;
+}
+.btn-success{
+    background: #0e970e !important;
+}
+.sectionOradores div{
+    font-size: 13px;
+    text-align: center;
+}
+.sectionOradores {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.box__card {
+    margin-top: 10px;
+    padding: 1rem 10rem;
+}
+.card-text {
+    font-size: 13px;
+}
+.honolulu-text{
+    font-size: 14px;
+    color: white;
+}
+.honolulu-text .btn {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+} 
+.sectionOradores{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.titulo-oradores{
+    font-size: 14px;
+}
+.parrafo-form{
+    font-size: 13px;
+}
+.formulario{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+.texto-area{
+    font-size: 12px;
+}
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
+footer {
+    padding-top: 15px;
+}
+.page__footer{
+    background-image: linear-gradient(to right, #1a4169,
+    #0a4674, #064e74, #1a5c8a, #085fab); 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 6rem;
+}
+.box__footer{
+    color: white !important;
+    font-size: 14px !important;
+    padding: 1.5rem 2.5rem !important;
+}
+.icon{
+    color: #28bd46;
+    font-size: 5rem;
+    position:fixed;
+    bottom:15px;
+    right: 15px;
+}
+
+/*CELULAR*/
+@media screen and (max-width: 767px) {
+    .navbar{
+        position: static !important;
+    }
+    .card-img-overlay {
+        padding-right: 1.5rem !important;
+        padding-left: 2% !important;
+        height: max-content;
+        max-height: 60%;
+    }
+    .textoConferencia {
+        font-size: 1rem;
+        padding-top: 0.7rem;
+    } 
+    .card-titulo{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .box__card {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+}
